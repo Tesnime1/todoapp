@@ -1,0 +1,25 @@
+interface creatif 
+integrer une library (react dnd). pour changer lordre 
+todo app basic create todo -update todo (bouton )
+quand je clique sur bouton  create to do  yekkhrodjli un model avec 3 bouton supprimer modifier completed avec des bagrouns different 
+todo saved in bdd
+//partie authentification 
+implementation auth + http-only-cookie {
+    ajouter coter backend (apres le sign de cookie et on le configure 
+    et je rajoute httponly :true avec une petit recherche des autres parametre de configuartion )
+    recuperer le token men le cokie 
+    logout (clear le cookie )
+
+
+
+}
+implementer des truc en plus la relatiion entre user et les todo 
+envoie un parametre pour recuperer les id 
+
+
+ajouter des priorite 
+
+
+react dnd dndkit (drag and drop )
+//bdd jdida 
+//rbac (verification de token or haja haka ) 3lajal lauthorisation 
