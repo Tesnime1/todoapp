@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #000000;
+}
+
+body{
+background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.container{
+  gap: 10px;
+ background-color:white;   
+  border-radius: 9px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 75px 50px 51px 50px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+
+ 
+  
+}
+form{
+  display: flex;
+flex-direction: column;
+  gap: 3vw;
+}
+.INPUT {
+  border: none; /* Remove the default input border */
+  border-bottom: 2px solid black; /* Add a bottom border to create the underline effect */
+  outline: none; /* Remove the default focus outline */
+  padding: 5px 0; /* Add some padding to the top and bottom */
+  width: 100%; /* Full width or you can specify a width */
+  font-size: 18px; /* Set font size */
+  background-color: transparent;
+  color: black;
+  
+}
+.INPUT:focus {
+  /* Thicker underline on focus */
+  transform: translateY(-3px); /* Change color when the input is focused */
+}
+label {
+  margin: 0 253px 12px 0; 
+  overflow-wrap: break-word;
+  font-weight: 400;
+  font-size: 17px;
+  color: #000000;  
+}
+
+button{
+  width: 20vw;
+  color: #FFFFFF;
+
+}
