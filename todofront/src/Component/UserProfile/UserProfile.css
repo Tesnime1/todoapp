@@ -1,0 +1,41 @@
+input {
+    border: none; /* Remove the default input border */
+    border-bottom: 2px solid black; /* Add a bottom border to create the underline effect */
+    outline: none; /* Remove the default focus outline */
+    padding: 5px 0; /* Add some padding to the top and bottom */
+    width: 100%; /* Full width or you can specify a width */
+    font-size: 18px; /* Set font size */
+    background-color: transparent;
+    color: black;
+    
+  }
+  h1{
+    padding: 60px;
+  }
+  .App{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    /* margin: 20px; */
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+  .containerUserProfile{
+    gap: 2vw;
+    width: 50vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 9px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 75px 50px 51px 50px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
