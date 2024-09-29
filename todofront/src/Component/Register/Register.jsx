@@ -40,19 +40,19 @@ export default function Register() {
     <div className='container'>
       <h2 style={{textAlign:'center'}}>Register</h2>
     <form onSubmit={handleSubmit}>
-    <div className='INPUT'>
+    <div>
       <label>Username:</label>
-      <input type='text' value={username} onChange={(e)=>setUsername(e.target.value)} required></input>
+      <input type='text'className='INPUT' value={username} onChange={(e)=>setUsername(e.target.value)} required></input>
      </div>
-     <div className='INPUT'>
+     <div>
       <label>Email:</label>
-      <input type='email' value={email} onChange={(e)=>setEmail(e.target.value)} required></input>
+      <input type='email' className='INPUT' value={email} onChange={(e)=>setEmail(e.target.value)} required></input>
      </div>
      <div>
       <label>Password:</label>
-      <input type='password' value={password} onChange={(e)=>setPassword(e.target.value)} required></input>
+      <input type='password' className='INPUT' value={password} onChange={(e)=>setPassword(e.target.value)} required></input>
      </div>
-     <button type='submit' >Register</button>
+     <button type='submit'>Register</button>
     </form>
      </div>
     </>
