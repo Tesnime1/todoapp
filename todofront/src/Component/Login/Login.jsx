@@ -32,8 +32,8 @@ export default function Login() {
 
   return (
     <>  
-      <div className='containerAuth'>
-        <div className='container'>
+
+    <div className='container'>
       <h2 style={{textAlign:'center'}}>LOGIN</h2>
       <form onSubmit={handleSubmit}>
         <div>
@@ -43,7 +43,7 @@ export default function Login() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
-          />
+          />vw
         </div>
         <div  >
           <label>Password:</label>
@@ -64,7 +64,7 @@ export default function Login() {
     
       <button onClick={() => navigate('/register')}>Créer un compte</button>
       </div>
-      </div>
+   
     </>
   );
 }
